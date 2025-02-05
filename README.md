@@ -1,5 +1,5 @@
 # otpsh
-## OTP Shell (without PAM)
+## OTP login shell (without PAM)
 
 use as shell replacement (calling shell from config)
 
