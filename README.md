@@ -1,7 +1,7 @@
 # otpsh
 ## OTP login shell (without PAM)
 
-use as shell replacement (calling shell from config)
+use as shell replacement (calling *real* shell from config)
 
 Config file example: **~/.otpsh**
 
