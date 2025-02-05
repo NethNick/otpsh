@@ -17,6 +17,7 @@ $(CONFIG_FILE):
 	echo "# Encode secret as Base32 (example: 'dead bytes here')" > $(CONFIG_FILE)
 	echo "secret=MRSWCZBAMJ4XIZLTEBUGK4TF" >> $(CONFIG_FILE)
 	echo "command=/bin/bash" >> $(CONFIG_FILE)
+	chmod 600 $(CONFIG_FILE)
 
 # Pulizia dei file generati
 clean:
