@@ -10,3 +10,8 @@ Config file example: **~/.otpsh**
 *command=/bin/bash*
 
 Secret is base32 encoded as from: https://emn178.github.io/online-tools/base32_encode.html
+
+**to test:**
+*git clone https://github.com/NethNick/otpsh/*
+*cd otpsh*
+*make test*
