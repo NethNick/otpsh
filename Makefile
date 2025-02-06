@@ -27,3 +27,5 @@ clean:
 run: $(TARGET) $(CONFIG_FILE)
 	./$(TARGET)
 
+# Test config
+run: $(TARGET) $(CONFIG_FILE)
