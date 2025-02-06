@@ -28,4 +28,4 @@ run: $(TARGET) $(CONFIG_FILE)
 	./$(TARGET)
 
 # Test config
-run: $(TARGET) $(CONFIG_FILE)
+test: $(TARGET) $(CONFIG_FILE)
